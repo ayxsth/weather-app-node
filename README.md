@@ -16,7 +16,7 @@ Example: ``node app Kathmandu``
 ## Running the project
 - Clone the repository.
     
-    ``git clone https://github.com/ayxsth/NoteAppCLIate.git``
+    ``git clone https://github.com/ayxsth/weather-app-node.git``
 - Open in Visual Studio Code *(optional)*
 - Run the Terminal from inside the folder.
 - Execute the application.
