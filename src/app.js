@@ -22,7 +22,7 @@ app.use(express.static(publicDir));
 
 app.get('', (req, res) => {
     res.render('index', {
-        title: 'Weather App',
+        title: 'Over Weather',
         name: 'Aayush Shrestha'
     });
 });
