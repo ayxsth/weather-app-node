@@ -37,7 +37,6 @@ header a {
     color: #888;
     margin-right: 16px;
     text-decoration: none;
-
 }
 
 .logo {
@@ -47,7 +46,8 @@ header a {
 input {
     border: 1px solid #ccc;
     padding: 8px;
-    width: 76%;
+    width: 80%;
+    text-align: center;
 }
 
 button {
@@ -56,8 +56,7 @@ button {
     background: #888;
     color: white;
     padding: 8px;
-    width: 20%;
-    float: right;
+    width: 30%;
 }
 
 label {
