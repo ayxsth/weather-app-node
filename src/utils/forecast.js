@@ -9,7 +9,7 @@ const forecast = (long, lat, callback) => {
         } else if (body.error) {
             callback(`Error ${body.error.code}! ${body.error.info}`, undefined);
         } else {
-            callback(undefined, `${body.current.weather_descriptions[0]}. It is currently ${body.current.temperature} degrees out. It feels like ${body.current.feelslike} degrees.`);
+            callback(undefined, `${body.current.weather_descriptions[0]}. It is currently ${body.current.temperature} degrees out. It feels like ${body.current.feelslike} degrees. The humidity is ${body.current.humidity}%.`);
         }
     });
 }

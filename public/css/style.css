@@ -12,6 +12,8 @@ body {
 
 .main-content {
     flex-grow: 1;
+    padding: 16px;
+    margin: 16px 0;
 }
 
 footer {
@@ -45,7 +47,7 @@ header a {
 input {
     border: 1px solid #ccc;
     padding: 8px;
-    width: 300px;
+    width: 76%;
 }
 
 button {
@@ -54,6 +56,8 @@ button {
     background: #888;
     color: white;
     padding: 8px;
+    width: 20%;
+    float: right;
 }
 
 label {
