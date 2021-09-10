@@ -27,6 +27,7 @@ This is the GUI version of a weather app created using **Node.js**. This app sim
 - Open in Visual Studio Code *(optional)*
 - Run the Terminal from inside the folder.
 - Install the required libraries.
+
     ``npm i``
 - Execute the application.
 
