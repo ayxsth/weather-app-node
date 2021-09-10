@@ -11,6 +11,9 @@ This is the GUI version of a weather app created using **Node.js**. This app sim
 
     This API is used to retrieve the current weather conditions for the user-specified location.
 
+## Heroku Deployment
+- [Over Weather](https://over-weather.herokuapp.com/)
+
 ## Screenshot
 
 ![Screenshot 1](./public/img/1.png)
@@ -27,6 +30,7 @@ This is the GUI version of a weather app created using **Node.js**. This app sim
 - Open in Visual Studio Code *(optional)*
 - Run the Terminal from inside the folder.
 - Install the required libraries.
+
     ``npm i``
 - Execute the application.
 
