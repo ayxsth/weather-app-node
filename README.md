@@ -9,6 +9,16 @@ This is the CLI version of a weather app created using **Node.js**. This app sim
 
 Example: ``node app Kathmandu``
 
+
+## API
+- [Mapbox](https://www.mapbox.com/)
+
+    This API is used to geo-code the user's entered location, which is then used by the WeatherStack API.
+
+- [WeatherStack](https://weatherstack.com/)
+
+    This API is used to retrieve the current weather conditions for the user-specified location.
+
 ## Prerequisite
 - [Node.js](https://nodejs.org/en/download/) 
 - Text Editor (E.g.: [Visual Studio Code](https://code.visualstudio.com/download))
@@ -19,6 +29,9 @@ Example: ``node app Kathmandu``
     ``git clone https://github.com/ayxsth/NoteAppCLIate.git``
 - Open in Visual Studio Code *(optional)*
 - Run the Terminal from inside the folder.
+- Install the required libraries.
+
+    ``npm i``
 - Execute the application.
 
     ``node app.js``
